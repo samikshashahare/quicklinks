@@ -13,9 +13,9 @@
   margin-top: 5%;
   flex-wrap: wrap;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
-.link-generation-card{
+
+.link-generation-card {
   height: 300px;
   background-color: #fff;
   box-shadow: 2px 1x 4px 2px rgb(45, 44, 44);
@@ -41,6 +41,7 @@
   border: none;
   margin: 20px auto;
   cursor: pointer;
+  
 }
 
 .short-url-container {
@@ -53,25 +54,32 @@
   height: 30px;
   cursor: pointer;
 }
-.links-display-container{
-height: 80vh;
-overflow-y: scroll;
--ms-overflow-style:none;/* IE and Edge*/
-scrollbar-width: 1px;/* firefox*/
-background-image: linear-gradient(rgb(59, 212, 210),rgba(90, 182, 219, 0.253), rgba(216, 6, 216, 0.496)) ;
+
+.links-display-container {
+  height: 80vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  /* IE and Edge*/
+  scrollbar-width: 1px;
+  /* firefox*/
+  background-image: linear-gradient(rgb(59, 212, 210), rgba(90, 182, 219, 0.253), rgba(216, 6, 216, 0.496));
 }
-.links-display-container::-webkit-scrollbar{
-display: none; /*Safati and Cromes*/
+
+.links-display-container::-webkit-scrollbar {
+  display: none;
+  /*Safati and Cromes*/
 }
-.links-display-container-heading{
+
+.links-display-container-heading {
   text-align: center;
 
 }
+
 .links-card {
   background-color: white;
   padding: 5px 30px;
   margin: 10px;
   width: 30vw;
   border-radius: 10px;
-  
+
 }
