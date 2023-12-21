@@ -1,38 +1,50 @@
-.App {
+
+.app-title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.link-generation-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px ;
+}
+.user-input{
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding:5px 10px;
+}
+.input-short-url{
+
+}
+.btn-generate-link{
+  display: block;
+  background-color: black;
+  color: white;
+  padding:10px 50px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.short-url-container{
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.copy-icon{
+height: 30px;
+cursor: pointer;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
