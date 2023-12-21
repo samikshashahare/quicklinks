@@ -1,50 +1,77 @@
+.shortUrl-container {
+  display: flex;
+}
 
 .app-title {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.app-container{
+.app-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 5%;
   flex-wrap: wrap;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .link-generation-card{
-  background-color: white;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 2px 1x 4px 2px rgb(45, 44, 44);
   border-radius: 10px;
-  padding: 40px ;
+  padding: 40px;
 }
-.user-input{
+
+.user-input {
   display: block;
   width: 200px;
   margin-bottom: 10px;
   font-size: 20px;
-  padding:5px 10px;
+  padding: 5px 10px;
 }
-.input-short-url{
 
-}
-.btn-generate-link{
+.btn-generate-link {
   display: block;
   background-color: black;
   color: white;
-  padding:10px 50px;
+  padding: 10px 50px;
   font-size: 15px;
   border-radius: 20px;
   border: none;
   margin: 20px auto;
   cursor: pointer;
 }
-.short-url-container{
+
+.short-url-container {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-.copy-icon{
-height: 30px;
-cursor: pointer;
+.copy-icon {
+  height: 30px;
+  cursor: pointer;
+}
+.links-display-container{
+height: 80vh;
+overflow-y: scroll;
+-ms-overflow-style:none;/* IE and Edge*/
+scrollbar-width: 1px;/* firefox*/
+background-image: linear-gradient(rgb(59, 212, 210),rgba(90, 182, 219, 0.253), rgba(216, 6, 216, 0.496)) ;
+}
+.links-display-container::-webkit-scrollbar{
+display: none; /*Safati and Cromes*/
+}
+.links-display-container-heading{
+  text-align: center;
 
+}
+.links-card {
+  background-color: white;
+  padding: 5px 30px;
+  margin: 10px;
+  width: 30vw;
+  border-radius: 10px;
+  
 }
